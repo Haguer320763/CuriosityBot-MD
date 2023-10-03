@@ -11,7 +11,7 @@ import { platform } from 'process'
 global.__filename = function filename(pathURL = import.meta.url, rmPrefix = platform !== 'win32') { return rmPrefix ? /file:\/\/\//.test(pathURL) ? fileURLToPath(pathURL) : pathURL : pathToFileURL(pathURL).toString() }; global.__dirname = function dirname(pathURL) { return path.dirname(global.__filename(pathURL, true)) }; global.__require = function require(dir = import.meta.url) { return createRequire(dir) }
 const __dirname = global.__dirname(import.meta.url)
 
-global.owner = [['527294888993', 'Creador', true], ['5492266613038'], ['593968585383'], ['5217294888993']]
+global.owner = [['573108897276', 'Creador', true], ['573108897276'], ['573108897276'], ['573108897276']]
 
 global.animxscans = ['400359205']
 global.suittag = ['994400359205']
@@ -30,7 +30,7 @@ global.library = 'Baileys'
 global.baileys = '@whiskeysockets/baileys'
 global.lenguaje = 'Español'
 global.menudi = ['⛶','❏','⫹⫺']
-global.dev = '5217294888993'
+global.dev = '573108897276'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => { unwatchFile(file)
